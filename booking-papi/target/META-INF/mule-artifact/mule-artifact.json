@@ -1,0 +1,40 @@
+{
+  "configs": [
+    "error-handling.xml",
+    "booking-papi.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:booking-papi:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.3.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "booking-papi.xml",
+        "log4j2.xml",
+        "error-handling.xml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-process-api-types/3.0.3/traits/client-id-enforcement-trait.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-process-api-types/3.0.3/traits/ErrorResponsesTrait.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-process-api-types/3.0.3/examples/Return500Example.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-process-api-types/3.0.3/examples/routeExample.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-process-api-types/3.0.3/examples/Return400Example.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-process-api-types/3.0.3/examples/Return405Example.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-process-api-types/3.0.3/examples/Return404Example.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-process-api-types/3.0.3/examples/Return415Example.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-process-api-types/3.0.3/examples/scheduleExample.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-process-api-types/3.0.3/examples/Return501Example.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-process-api-types/3.0.3/examples/Return406Example.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-process-api-types/3.0.3/booking-process-api-types.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-process-api-types/3.0.3/datatypes/ErrorResponseType.raml",
+        "api/booking-papi.raml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "configs": [
+    "transnationalservice.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:transnationalservice:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.3.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "create-db.sql",
+        "springbeans.xml",
+        "log4j2.xml",
+        "insertData.sql",
+        "application-types.xml",
+        "routeProcess.dwl",
+        "properties.yaml",
+        "api/transNationalService.wsdl",
+        "transnationalservice.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}

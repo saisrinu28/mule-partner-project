@@ -1,0 +1,39 @@
+{
+  "configs": [
+    "booking-sapi.xml",
+    "error-handling.xml"
+  ],
+  "secureProperties": [],
+  "redeploymentEnabled": true,
+  "name": "com.mycompany:booking-trans-sapi-impl:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.3.0",
+  "requiredProduct": "MULE_EE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "log4j2.xml",
+        "booking-sapi.xml",
+        "error-handling.xml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-system-api-types/3.0.2/booking-system-api-types.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-system-api-types/3.0.2/system-api-types/traits/ErrorResponsesTrait.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-system-api-types/3.0.2/system-api-types/examples/Return500Example.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-system-api-types/3.0.2/system-api-types/examples/scheduleResponse.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-system-api-types/3.0.2/system-api-types/examples/Return400Example.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-system-api-types/3.0.2/system-api-types/examples/Return405Example.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-system-api-types/3.0.2/system-api-types/examples/Return404Example.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-system-api-types/3.0.2/system-api-types/examples/Return415Example.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-system-api-types/3.0.2/system-api-types/examples/Return501Example.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-system-api-types/3.0.2/system-api-types/examples/routeResponse.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-system-api-types/3.0.2/system-api-types/examples/Return406Example.raml",
+        "api/exchange_modules/564ae392-e0b6-4b89-8ac4-db2e9514d7e5/booking-system-api-types/3.0.2/system-api-types/datatypes/ErrorResponseType.raml",
+        "api/booking-sapi.raml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
